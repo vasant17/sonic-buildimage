@@ -74,8 +74,8 @@ module sonic-port{
 				}
 
 				leaf index {
-					type uint8 {
-						range 1..128;
+					type uint16 {
+						range 0..256;
 					}
 				}
 
